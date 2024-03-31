@@ -16,7 +16,8 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+The blank object is mutable because it is a Point object and it's instances can be modified
+such as when it's x and y values were changed.
 ```
 
 ```java
@@ -47,7 +48,9 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+The return values from #3 and #4 differ because Part #3 is creating a new point from the dimensions given
+ by Rectangle rect and the return object is a Point. Part  #4 is trying to determine the distance between
+ two points, center and blank, and the return value is a double. 
 ```
 
 ```java
@@ -87,14 +90,18 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+The output is:
+
+(5, 8)
+(5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+p1 and p2 are not aliased because they refer to two different objects. Even though box1 grew by one, p1 and p2 were
+assigned different points. 
 ```
 
 ```java
@@ -142,6 +149,7 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
+      * I added an if statement that would break the loop and return the count as zero if the String was empty.
 
 ## Part 4: Large Numbers
 
